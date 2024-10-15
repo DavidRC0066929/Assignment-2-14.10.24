@@ -51,8 +51,8 @@ namespace Assignment_2_14._10._24
                 double height = double.Parse(textBox3.Text); // variable for height
                 double volume = length * width * height; // does volume equation for rectangular cuboid
                 double surfacearea = 2 * ((length * height) + (length * width) + (width * height)); // does surface area equation for rectangular cuboid
-                label9.Text = volume.ToString("0.000"); // shows the volume in a label
-                label10.Text = surfacearea.ToString("0.000"); // shows the surface area in a label
+                label9.Text = volume.ToString("0.000") + " m^3"; // shows the volume in a label with correct units
+                label10.Text = surfacearea.ToString("0.000") + " m^2"; // shows the surface area in a label with correct units
             }
             catch
             {
@@ -88,8 +88,8 @@ namespace Assignment_2_14._10._24
                 double pi = Math.PI; // variable for pi
                 double volume = 4.0 / 3.0 * pi * (Math.Pow(radius, 3)); // does volume equation for a sphere
                 double surfacearea = 4 * pi * (Math.Pow(radius, 2)); // does surface area equation for a sphere
-                label12.Text = volume.ToString("0.000"); // shows the volume in a label
-                label11.Text = surfacearea.ToString("0.000"); // shows the surface area in a label
+                label12.Text = volume.ToString("0.000") + " m^3"; // shows the volume in a label with correct units
+                label11.Text = surfacearea.ToString("0.000") + " m^2"; // shows the surface area in a label with correct units
             }
             catch
             {
@@ -121,8 +121,8 @@ namespace Assignment_2_14._10._24
                 double pi = Math.PI; // variable for pi
                 double volume = 1.0 / 3.0 * pi * (Math.Pow(radius, 2) * height); // does volume equation for a cone
                 double surfacearea = (pi * radius) * (radius + Math.Sqrt(Math.Pow(height, 2) + Math.Pow(radius, 2)));// does surface area equation for a cone
-                label22.Text = volume.ToString("0.000"); // shows the volume in a label
-                label21.Text = surfacearea.ToString("0.000"); // shows the surface area in a label
+                label22.Text = volume.ToString("0.000") + " m^3"; // shows the volume in a label with correct units
+                label21.Text = surfacearea.ToString("0.000") + " m^2"; // shows the surface area in a label with correct units
             }
             catch
             {
